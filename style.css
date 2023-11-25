@@ -175,10 +175,6 @@ nav .fa{
 	.about-container1{
 		flex-direction:column;
 	}
-	.row2{
-		flex-direction:column;
-
-	}
 }
 
 
@@ -311,6 +307,10 @@ h3{
 	h1{
 		font-size:28px;
 	}
+	.rw{
+		flex-direction:column;
+	}
+
 }
 .footer{
 	width: 100%;
@@ -384,20 +384,35 @@ h3{
 	padding-top: 30px;
 	padding-bottom:10px;
 }
-
-.row2{
-	margin-top: 5%;
+.rw{
 	display: flex;
 	justify-content: space-between;
 }
+.rw h3{
+	font-size:15px;
+}
+.rw p{
+	font-size:12px;
+}
+.row2{
+	margin-top: 5%;
+	justify-content: space-between;
+	display:flex;
+	flex-basis: 61%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 6px;
+	margin-left:0%;
+	margin-right:2%;
+}
 .col2{
-	flex-basis: 31%;
 	background: #f7fdfe;
 	border-radius: 10px;
 	margin-bottom: 5%;
-	padding: 20px 12px;
+	flex-basis: 61%;
 	box-sizing: border-box;
 	transition: 0.5s;
+	padding: 20px 6px;
 	margin-left:2%;
 	margin-right:2%;
 }
